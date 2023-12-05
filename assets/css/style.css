@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.home-img {
+    height: 100vh !important;
+    width: 100% !important;
+    object-fit: fill;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    border: 2px solid black !important;
+}
+
+.bg-about{
+    background-color:aliceblue !important;
+}
+
+.bg-services{
+    background-color:antiquewhite !important;
+}
+
+.card img{
+    height: 30vh !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+/* media queries */
+@media only screen and (max-width:600px) {
+    .home-img {
+        height: 60vh !important;
+    }
+}
